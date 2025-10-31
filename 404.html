@@ -1,0 +1,65 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>404 - Page Not Found</title>
+        <!-- Load Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            'sans': ['Inter', 'sans-serif'],
+                        },
+                    },
+                },
+            }
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="font-sans bg-gray-50 text-gray-900">
+
+        <div class="min-h-screen flex items-center justify-center p-4">
+            <div class="w-full max-w-lg p-10 space-y-6 bg-white rounded-xl shadow-2xl text-center">
+                
+                <!-- Large 404 Heading -->
+                <h1 class="text-9xl font-extrabold text-indigo-600">
+                    404
+                </h1>
+                
+                <!-- Creative Message -->
+                <h2 class="text-3xl font-bold text-gray-800">
+                    Oops! You've ventured into the unknown.
+                </h2>
+                <p class="text-lg text-gray-600">
+                    It seems the page you're looking for has taken a detour or doesn't exist.
+                </p>
+
+                <!-- Navigation back home -->
+                <a href="/" 
+                class="inline-flex items-center px-6 py-3 font-semibold text-white bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                    Return to Home
+                </a>
+
+                <!-- Required Email Address -->
+                <div class="pt-6 border-t border-gray-200">
+                    <p class="text-sm text-gray-500">
+                        If you believe this is an error, please contact:
+                        <!--email_off-->
+                        <br>
+                        <span class="font-medium text-gray-600">21f2000973@ds.study.iitm.ac.in</span>
+                        <!--/email_off-->
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+    </html>
+
